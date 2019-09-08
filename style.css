@@ -1,0 +1,81 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:62.5%;
+}
+
+h1{
+    font-size:2rem;
+    text-transform: uppercase;
+    margin-bottom:0px;
+}
+
+.site-header{
+    background-image:url(img/minecraft_banner.jpg);
+    background-size:cover;
+    background-position: center top;
+    color:white;
+    height:20rem;
+}
+
+.section-description{
+    display:flex;
+    justify-content: space-between;
+    padding:2rem;
+}
+
+.container{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.img-description{
+    width:80%;
+    border:2px solid lightgray;
+    border-radius: 5px;
+    padding:.2rem;
+}
+
+.text-description{
+    font-size:1.1rem;
+}
+
+.square{
+    flex-basis:calc(33%-1rem);
+    padding:1rem;
+}
+
+.square-img:hover{
+    transform:scale(1.1);
+}
+
+.minecraft-img{
+    width:100%;    
+    margin:0px;
+    border-radius: 5px;
+}
+
+.rows{
+    display:flex;
+justify-content: space-between;
+padding: 1rem;
+margin:1rem;
+}
+
+.square-text{
+    text-align: center;
+    font-size:1.1rem;
+}
+
+.headings{    
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.houses-background{
+    background-image: url(img/minecraft_construction.jpg);
+    background-size: cover;
+    background-position: center center;
+    height:20rem;
+}
